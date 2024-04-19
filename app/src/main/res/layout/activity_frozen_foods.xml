@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frozen_Foods">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:padding="20dp"
+                android:text="Welcome to your Frozen Foods list!"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Check in your products ;)) "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+            <CheckBox
+                android:id="@+id/ice_cream_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ice-cream"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <CheckBox
+                android:id="@+id/fish_fillets_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fish fillets"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <CheckBox
+                android:id="@+id/pizza_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pizza"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <CheckBox
+                android:id="@+id/sausages_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sausages"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+            <CheckBox
+                android:id="@+id/fish_fingers_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fish fingers"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <CheckBox
+                android:id="@+id/breaded_chicken_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Breaded chicken"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <CheckBox
+                android:id="@+id/burgers_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Burgers"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <CheckBox
+                android:id="@+id/ice_lollies_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ice lollies"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <CheckBox
+                android:id="@+id/yorkshire_puddings_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yorkshire puddings"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <CheckBox
+                android:id="@+id/sweet_corn_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sweet Corn"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <CheckBox
+                android:id="@+id/roast_potatoes_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roast Potatoes"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

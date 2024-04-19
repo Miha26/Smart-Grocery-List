@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pasta_Rice_Cereal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:padding="20dp"
+                android:text="Welcome to your Past, Rice and Cereal list!"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Check in your products ;)) "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+            <CheckBox
+                android:id="@+id/fettuccine_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fettuccine" />
+
+            <CheckBox
+                android:id="@+id/angelhair_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Angel hair pasta" />
+
+            <CheckBox
+                android:id="@+id/macaroni_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Macaroni" />
+
+            <CheckBox
+                android:id="@+id/fusilli_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fusilli" />
+
+            <CheckBox
+                android:id="@+id/bowties_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bow ties" />
+
+            <CheckBox
+                android:id="@+id/penne_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Penne" />
+
+            <CheckBox
+                android:id="@+id/basmati_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Basmati Rice" />
+
+            <CheckBox
+                android:id="@+id/shortgrain_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Japanese Short-Grain Rice" />
+
+            <CheckBox
+                android:id="@+id/sushi_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sushi Rice" />
+
+            <CheckBox
+                android:id="@+id/glutinous_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Japanese Glutinous Rice" />
+
+            <CheckBox
+                android:id="@+id/wheat_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wheat" />
+
+            <CheckBox
+                android:id="@+id/rye_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rye" />
+
+            <CheckBox
+                android:id="@+id/sorghum_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sorghum" />
+
+            <CheckBox
+                android:id="@+id/rice_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rice" />
+
+            <CheckBox
+                android:id="@+id/oats_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oats" />
+
+            <CheckBox
+                android:id="@+id/maize_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maize" />
+
+            <CheckBox
+                android:id="@+id/barley_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Barley" />
+
+            <CheckBox
+                android:id="@+id/millet_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Millet" />
+
+            <CheckBox
+                android:id="@+id/quinoa_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quinoa" />
+
+            <CheckBox
+                android:id="@+id/corn_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Corn" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

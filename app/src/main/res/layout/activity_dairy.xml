@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dairy">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:padding="20dp"
+                android:text="Welcome to your dairy list!"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Check in your dairy ;)) "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <CheckBox
+                android:id="@+id/butter_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Butter"
+                android:layout_gravity="center_horizontal"
+                />
+            <CheckBox
+                android:id="@+id/cheese_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cheese"
+                android:layout_gravity="center_horizontal"/>
+            <CheckBox
+                android:id="@+id/eggs_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eggs"
+                android:layout_gravity="center_horizontal"/>
+            <CheckBox
+                android:id="@+id/milk_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Milk"
+                android:layout_gravity="center_horizontal"/>
+            <CheckBox
+                android:id="@+id/yogourt_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yogourt"
+                android:layout_gravity="center_horizontal"/>
+            <CheckBox
+                android:id="@+id/ayran_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ayran"
+                android:layout_gravity="center_horizontal"/>
+            <CheckBox
+                android:id="@+id/kefir_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kefir"
+                android:layout_gravity="center_horizontal"/>
+            <CheckBox
+                android:id="@+id/cream_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cream"
+                android:layout_gravity="center_horizontal"/>
+            <CheckBox
+                android:id="@+id/sourc_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sour Cream"
+                android:layout_gravity="center_horizontal"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

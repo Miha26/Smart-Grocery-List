@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bread">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:padding="20dp"
+                android:text="Welcome to your bread list!"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Check in your bread ;)) "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <CheckBox
+                android:id="@+id/whiteb_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="White Bread"
+                android:layout_gravity="center_horizontal"
+                />
+            <CheckBox
+                android:id="@+id/wheatb_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wheat Bread"
+                android:layout_gravity="center_horizontal"/>
+            <CheckBox
+                android:id="@+id/wholemealb_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wholemeal Bread"
+                android:layout_gravity="center_horizontal"/>
+            <CheckBox
+                android:id="@+id/ryeb_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rye Bread"
+                android:layout_gravity="center_horizontal"/>
+            <CheckBox
+                android:id="@+id/hamburger_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hamburger Bun"
+                android:layout_gravity="center_horizontal"/>
+            <CheckBox
+                android:id="@+id/hotdog_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hot Dog Bun"
+                android:layout_gravity="center_horizontal"/>
+            <CheckBox
+                android:id="@+id/pita_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pita bread"
+                android:layout_gravity="center_horizontal"/>
+            <CheckBox
+                android:id="@+id/sticks_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bread Sticks"
+                android:layout_gravity="center_horizontal"/>
+            <CheckBox
+                android:id="@+id/rolls_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rolls"
+                android:layout_gravity="center_horizontal"/>
+            <CheckBox
+                android:id="@+id/croissant_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Croissant"
+                android:layout_gravity="center_horizontal"/>
+            <CheckBox
+                android:id="@+id/pretzel_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pretzel"
+                android:layout_gravity="center_horizontal"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SpaghettiCarbonara">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spaghetti Carbonara"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:textSize="26sp"/>
+
+    <ImageView
+
+        android:id="@+id/image_carbonara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/spaghetti_carbonara" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:padding="20dp"
+        android:text="Ingredients:\n
+        Pasta\n
+        Parmesan cheese\n
+        Soft Cheese\n
+        Any kind of cheese\n
+        1 Egg\n
+        Milk\n
+        Bacon\n
+        Salt\n
+        Pepper\n"/>
+    <TextView
+        android:padding="20dp"
+        android:layout_width="420dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="Preparation:\n
+Boil the pasta with a liitle bit of salt for as long as it is written on the package, usually 10 min max.
+While the pasta is boiling mix the egg, milk, pepper, parmesan cheese and any kind of cheese you chooseto make the sauce.
+Chop the bacon and fry it
+Once the pasta is boiled we separate it from the water
+At the end, add the pasta over the bacon and give it a good mix, and then add the sauce."
+        />
+</LinearLayout>
+
+</LinearLayout>
